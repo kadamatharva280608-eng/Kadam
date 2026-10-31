@@ -1,0 +1,278 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+}
+
+css
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blanchedalmond;
+    color: #890e0e;
+    line-height: 1.7;
+}
+
+
+header {
+    background: linear-gradient(135deg, #5c3300, #0066a1);
+    color: burlywood;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+header p {
+    max-width: 1000px;
+    margin: auto;
+    font-size: 16px;
+}
+
+
+nav {
+    background-color: #001f40;
+    padding: 18px;
+    margin-top: 25px;
+}
+
+nav a {
+    color: rgb(179, 18, 93);
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0 20px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Sections */
+section {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    color: #003366;
+    font-size: 28px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #ffcc00;
+    padding-bottom: 10px;
+}
+
+section h3 {
+    color: #0066a1;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Text Formatting */
+mark {
+    background-color: #ffeb99;
+    padding: 3px;
+}
+
+strong {
+    color: #003366;
+}
+
+small {
+    color: #777;
+}
+
+/* Courses List */
+#courses ol {
+    padding-left: 30px;
+}
+
+#courses li {
+    padding: 8px;
+    margin: 8px 0;
+    background-color: #eef5fc;
+    border-left: 4px solid #0066a1;
+    border-radius: 5px;
+}
+
+/* Campus Images */
+figure {
+    display: inline-block;
+    margin: 15px;
+    text-align: center;
+    vertical-align: top;
+}
+
+figure img {
+    width: 100%;
+    max-width: 450px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+figure img:hover {
+    transform: scale(1.04);
+}
+
+figcaption {
+    font-size: 15px;
+    color: #555;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+/* Officers Section */
+#officers {
+    text-align: center;
+    background-color: #e8f2fc;
+}
+
+#sir {
+    text-align: center;
+}
+
+#sir figure {
+    width: 28%;
+    margin: 15px;
+    background-color: #f4f7fb;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#sir img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+#sir figcaption {
+    font-weight: bold;
+    color: #003366;
+    font-style: normal;
+}
+
+/* Students Report Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 15px;
+    background-color: white;
+}
+
+caption {
+    font-size: 25px;
+    font-weight: bold;
+    color: #003366;
+    margin-bottom: 15px;
+}
+
+th {
+    background-color: #003366;
+    color: white;
+    padding: 14px;
+    font-size: 17px;
+}
+
+td {
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+
+tr:nth-child(even) {
+    background-color: #eaf2fa;
+}
+
+tr:hover {
+    background-color: #d4e7fa;
+}
+
+/* Footer */
+footer {
+    background-color: #001f40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer p {
+    font-size: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+        font-size: 15px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    figure {
+        display: block;
+        margin: 15px auto;
+    }
+
+    figure img {
+        max-width: 100%;
+    }
+
+    #sir figure {
+        width: 90%;
+        margin: 15px auto;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+}
